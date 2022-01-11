@@ -10,7 +10,7 @@ with open(os.path.join(here, 'README.md')) as f:
     README = f.read()
 
 install_requires = [
-    "ecdsa>=0.15"
+    'python-secp256k1@git+https://github.com/scgbckbone/python-secp256k1.git',
 ]
 
 setup(
